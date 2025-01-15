@@ -4,10 +4,10 @@ FROM ubuntu:22.04
 RUN apt update && apt install -y bash
 
 # Copiar os arquivos do projeto
-COPY . /whaticket
+COPY . /atendeai_sass
 
 # Tornar o script executável
-RUN chmod +x /whaticket/install.sh
+RUN chmod +x /atendeai_sass/whaticketsaas.sh
 
 # Executar o script
-CMD ["/whaticket/install.sh"]
+CMD ["/atendeai_sass/whaticketsaas.sh"]
