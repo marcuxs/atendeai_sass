@@ -10,4 +10,4 @@ COPY . /atendeai_sass
 RUN chmod +x whaticketsaas
 
 # Executar o script
-CMD ["whaticketsaas"]
+CMD ["whaticketsaas.sh"]
