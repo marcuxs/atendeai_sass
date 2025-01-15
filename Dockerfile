@@ -7,7 +7,7 @@ RUN apt update && apt install -y bash
 COPY . /atendeai_sass
 
 # Tornar o script executável
-RUN chmod +x /whaticketsaas.sh
+RUN chmod +x /whaticketsaas
 
 # Executar o script
-CMD ["/whaticketsaas.sh"]
+CMD ["/whaticketsaas"]
